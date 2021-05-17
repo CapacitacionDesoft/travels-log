@@ -1,0 +1,17 @@
+HU1. Como usuario externo del sistema quiero crearme un usuario para poder utilizar en el sistema
+
+HU2. Como usuario sistema quiero poder hacer una solicitud para recuperar la contraseña.
+
+HU3. Como usuario avanzado en el sistema quiero poder gestionar los usuarios y los grupos de usuarios del sistema para actualizar la informacion de los usuarios y asignar los permisos correspondientes.
+
+HU4. Como Jefe de operaciones quiero tener un registro de las ubicaciones de la empresa para poder utilizarlos en los viajes y reportes del sistema.
+
+HU5. Como Jefe de operaciones quiero tener un registro de los materiales a transportar para poder utilizarlos en los viajes y reportes del sistema.
+
+HU6. Como Jefe de operaciones quiero poder llevar un registro de los choferes de la empresa para poder utilizarlos en los viajes y reportes del sistema.
+
+HU7. Como Jefe de operaciones quiero poder llevar un registro de los vehiculos de la empresa para poder utilizarlos en los viajes y reportes del sistema.
+
+HU8. Como Chequeador quiero registrar la salida y la llegada de cada viaje para tener un registro de los viajes de materiales dados por cada vehículo.
+
+HU9. Como Chequeador quiero conocer las cantidades de materiales cargados y descargadas por cada ubicación registrada para comprobar la estadística de los viajes realizados.
