@@ -1,0 +1,22 @@
+Funcionalidades principales del sistema
+
+Módulo de Seguridad
+- Registro propio del usuario
+- Login usuario
+- Logout usuario
+- Gestionar usuarios
+- Gestionar grupos de usuarios
+
+Módulo de transporte
+- Gestionar Choferes
+- Gestionar vehículos
+
+Módulo de operaciones
+- Gestionar ubicaciones
+- Gestionar materiales
+- Gestionar viajes
+
+Reportes
+- Vista de resumen de los viajes
+- Cantidades de material cargado por ubicación
+- Cantidades de material descargado por ubicación
