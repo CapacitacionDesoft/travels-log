@@ -1,0 +1,36 @@
+# Crear nuevo usuario desde la opcion registrar usuario
+curl -X POST -H "Content-Type: application/json" -d '{"username": "chucho", "password": "C123/*hucho", "password2": "C123/*hucho", "email": "chucho@desoft.cu", "first_name": "Pedro", "last_name": "Martinez"}' http://127.0.0.1:8000/api/auth/token/createuser
+
+
+# iniciar sesion con un usuario creado. responde con el token de sesion del usuario
+curl -s -H "Content-Type: application/json" -POST http://127.0.0.1:8000/api/auth/token/login  --data '{"email": "chucho@desoft.cu","username":"chucho", "password":"C123/*hucho"}'
+
+# Acceder a una pagina para usuario autenticado
+curl -POST http://127.0.0.1:8000/api/auth/token/getuser -H 'Authorization: Token 20768a382f4602d2d8fabe77281624ecf64b778e'
+
+
+# Todos los ENDPOINT
+
+api/auth/ authenticatesocialuser [name='authenticatesocialuser']
+api/auth/ token/createuser [name='createuser']
+{
+    "email": "",
+    "username": "",
+    "password": "",
+    "first_name": "",
+    "last_name": ""
+}
+
+api/auth/ token/login [name='login']
+{
+    "email": "",
+    "username": "",
+    "password": ""
+}
+
+api/auth/ token/getuser [name='getuser']
+api/auth/ token/edituser [name='edituser']
+api/auth/ token/changepassword [name='changepassword']
+api/auth/ token/resetpasswordcode [name='resetpasswordcode']
+api/auth/ token/resetpassword [name='resetpassword']
+api/auth/ token/logout [name='logout'] 

@@ -1,0 +1,7 @@
+wheel
+setuptools
+requests
+django
+djangorestframework
+django-cors-headers
+django-rest-allauth
